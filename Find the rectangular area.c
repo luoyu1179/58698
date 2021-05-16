@@ -7,16 +7,16 @@ int main()
     int m_Width;
     int result;
 
-    printf("长方形的高度为：%d\n",Hight);
+    printf("The hight of the rectangle is：%d\n",Hight);
     
-    printf("请输入长度\n");
+    printf("Please enter the lenght\n");
     scanf("%d",&m_Long);
 
-    printf("请输入宽度\n");
+    printf("Please enter the width\n");
     scanf("%d",&m_Width);
     
     result=calculate(m_Long,m_Width);
-    printf("长方形的体积是：")；
+    printf("The volume of the cube is：")；
     printf("%d\n",result);
     return 0;
 }
